@@ -1,0 +1,20 @@
+{
+  "passengers": [
+    {
+      "name": "mahesh",
+      "age": 28,
+      "gender": "Male",
+      "berth": "Side Upper"
+    }
+  ],
+  "journeys": [
+    {
+      "origin": "pune",
+      "destination": "chennai",
+      "date": "03-10-2026",
+      "train_no": "na",
+      "travel_class": "3A",
+      "quota": "GENERAL"
+    }
+  ]
+}

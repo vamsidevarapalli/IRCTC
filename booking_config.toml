@@ -1,0 +1,21 @@
+# Enter your own details below. Blank values and age = 0 must be replaced.
+# This file contains personal information in plaintext. Keep it private.
+# Never add passwords, OTPs, API keys, card numbers, UPI PINs or payment secrets.
+# Assisted filling is not unattended booking. Browser automation requires IT approval.
+
+[journey]
+origin = "pune"                 # Exact boarding station code, e.g. NDLS
+destination = "chennai"            # Exact destination station code
+date = "03-10-2026"                   # Boarding date: DD-MM-YYYY
+train_no = ""               # Optional five-digit train number, quoted
+travel_class = "3A"         # 1A, 2A, 3A, 3E, SL, CC, 2S or EC
+quota = "GENERAL"           # GENERAL or TATKAL; Tatkal excludes 1A and EC
+train_origin_date = ""      # Required for TATKAL: departure date at train origin, DD-MM-YYYY
+
+# Repeat this entire [[passengers]] block for each passenger.
+# Maximum: 6 for GENERAL, 4 for TATKAL. Infant details are entered manually on IRCTC.
+[[passengers]]
+name = "Vamsi"                  # Full name
+age = 23                   # Integer, 1 to 125 (do not quote)
+gender = "Male"            # Male, Female or Transgender
+berth = "No preference"    # No preference, Lower, Middle, Upper, Side Lower or Side Upper
